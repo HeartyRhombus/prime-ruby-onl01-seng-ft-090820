@@ -1,8 +1,4 @@
 def prime?(number)
-  if number % 2
-    return true
-  elsif number !% 2
-    false
-  end
+  number % 2 ? true : false
 
 end
