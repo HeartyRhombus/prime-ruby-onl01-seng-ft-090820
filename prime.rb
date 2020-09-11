@@ -1,3 +1,6 @@
 def prime?(number)
-  number.prime? ? true : false
+  if number % 2
+    return true
+  else
+    false
 end
