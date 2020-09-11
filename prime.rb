@@ -3,7 +3,6 @@ def prime?(number)
     return false
   else
     (2..number-1).each do |int|
-
     if number % int == 0
       return false
     end
