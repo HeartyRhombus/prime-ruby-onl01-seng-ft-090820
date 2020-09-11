@@ -1,9 +1,9 @@
 def prime?(number)
   case number
     when number % 2
-      return true
+      true
     when number < 2
-      return false
+      false
   end
 
 end
