@@ -1,8 +1,12 @@
 def prime?(num)
-  n = 2
-  while n < num
-    return false if num % n == 0
-    n += 1
+  if num < 2
+    return false
+  else
+    for n in range(2,x)
+      if x % n == 0
+        return false
+      end
+    end
+    return true
   end
-  true
 end
