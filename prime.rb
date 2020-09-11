@@ -1,6 +1,6 @@
 def prime?(number)
   Math.sqrt(num).each do |i|
-    if num % i == 0 && i < num
+    if number % i == 0 && i < number
       return false
     end
     true
