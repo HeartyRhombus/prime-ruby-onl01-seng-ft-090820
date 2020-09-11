@@ -1,7 +1,7 @@
 def prime?(number)
   case number
   when (number % 2)
-      true
+      return true
   end
 
 end
