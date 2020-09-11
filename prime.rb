@@ -1,12 +1,4 @@
-def prime?(num)
-  if num < 2
-    return false
-  else
-    for n in range(2,x)
-      if x % n == 0
-        return false
-      end
-    end
+def prime?(number)
+  if number % 2
     return true
-  end
 end
